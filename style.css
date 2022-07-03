@@ -1,0 +1,155 @@
+
+body{
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 60px;
+}
+
+a{
+  text-decoration: none;
+  color:  #556987;
+}
+
+
+.connected{
+  display: flex;
+}
+
+.connected__content {
+}
+.connected__contact {
+  height: 22px;
+  width: 75px;
+  background-color: #DCFCE7;
+  border-radius: 35px;
+  font-size: 12px;
+  padding-left: 18px;
+  padding-top: 4px;
+  color: #22C55E;
+  text-transform: uppercase;
+}
+.connected__title {
+  color: #2A3342 ; 
+  font-size: 48px;
+  margin-top: 16px;
+  margin-bottom: -16px;
+}
+.connected__text {
+  font-size: 16px;
+  color: #556987;
+  width: 689px;
+}
+.connected__btns {
+  display: flex;
+  gap: 16px;
+  margin-top: 40px;
+  margin-left: 190px;
+}
+.connected__openBtn {
+  width: 191px;
+  height: 56px;
+  background-color: #22C55E;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+}
+.connected__aboutBtn {
+  width: 138px;
+  height: 56px;
+  font-size: 18px;
+  background-color: #fff;
+  border: 1px solid #D5DAE1;
+  border-radius: 6px;
+}
+.contacts {
+  display: flex;
+  margin-top: 100px;
+}
+.contacts__first{
+  display: flex;
+  margin-bottom: 100px;
+  gap: 120px;
+}
+.contacts__adress {
+}
+.contacts__second{
+  display: flex;
+  gap: 120px;
+}
+
+
+.item {
+  width: 261px;
+  height: 156px;
+}
+.contacts__label {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2A3342;
+}
+
+
+.social__links {
+  display: flex;
+  gap: 20px;
+}
+.contacts__form {
+  display: flex;
+  flex-direction: column;
+  width: 554px;
+  height: 400px;
+  background-color: #D5DAE1;
+  padding: 40px;
+  border-radius: 6px;
+}
+
+label{
+  font-size: 16px;
+  color: #333F51;
+  margin-bottom:6px ;
+}
+
+
+.email__input::placeholder {
+  
+     font-size: 16px;  
+     font-family: 'Poppins', sans-serif; 
+     padding-left: 8px;
+     padding-top: 6px;
+     
+  }
+
+.email__input {
+margin-bottom: 40px;
+width: 474px;
+height: 60px;
+border-radius: 8px;
+border: none;
+
+}
+.sendBtn{
+  width: 480px;
+  height: 56px;
+  color: #fff;
+  background-color: #22C55E;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+textarea {
+    margin-bottom: 30px;
+    width: 474px;
+    height: 220px;
+    border: none;
+    border-radius: 8px;
+}
+
+textarea::placeholder {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 8px;
+  padding-top: 6px;
+}
+
